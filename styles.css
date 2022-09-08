@@ -1,0 +1,29 @@
+.buttonClear {
+    grid-area: clear;
+}
+
+.buttonDelete {
+    grid-area: delete;
+}
+
+.buttonOperators{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+    'clear clear delete delete'
+}
+.buttonGeneric {
+padding:16px;
+}
+.calcScreen {
+    font-size: 3rem;
+    text-align: right;
+    padding: 16px;
+}
+
+.calculatorContainer {
+    width: 480px;
+    border: 1px black solid;
+    border-radius: 2%;
+}
