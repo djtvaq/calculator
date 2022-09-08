@@ -19,19 +19,17 @@ function operate(operator, a, b) {
 
 }
 
-const calcButtons = document.querySelectorAll('.buttonGeneric')
+const calcButtons = document.querySelectorAll('.buttonDigit')
 const displayScreen = document.querySelector('#displayScreen')
 let inputValueArray = []
-
-
-
-
-
+let currentHoldValue
 
 function updateDisplay() {
     let inputValueString = inputValueArray.join('')
     let inputValueInt = parseInt(inputValueString)
     displayScreen.textContent = inputValueInt
+
+    currentHoldValue = parseInt(displayScreen.textContent)
 
 }
 
@@ -43,3 +41,4 @@ function collectInput() {
 
 
 calcButtons.forEach(button => button.addEventListener('click', collectInput))
+
