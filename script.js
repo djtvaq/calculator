@@ -11,3 +11,55 @@
 
 
 
+
+let valueA = 0
+let operator 
+
+
+
+function userPromptNumber() {
+    let userPrompt = prompt('What is your first number')
+    valueA = parseInt(userPrompt)
+    userPromptOperator()
+}
+
+function userPromptOperator() {
+    let userPromptOperator = prompt('What is your operator (+, -, *, /, =)')
+    operator = userPromptOperator
+    evaluate()
+}
+
+function evaluate() {
+
+if (operator === '+') {
+    let valueB = parseInt(prompt('What is your next number?'))
+    let answer = valueA+valueB
+    console.log(answer)
+    valueA = answer
+    userPromptOperator()
+} else if (operator === '-') {
+    let valueB = parseInt(prompt('What is your next number?'))
+    let answer = valueA-valueB
+    console.log(answer)
+    valueA = answer
+    userPromptOperator()
+} else if (operator === '*') {
+    let valueB = parseInt(prompt('What is your next number?'))
+    let answer = valueA*valueB
+    console.log(answer)
+    valueA = answer
+    userPromptOperator()
+} else if (operator === '/') {
+    let valueB = parseInt(prompt('What is your next number?'))
+    let answer = valueA/valueB
+    console.log(answer)
+    valueA = answer
+    userPromptOperator()
+} else if (operator === '=') {
+    let answer = valueA
+    console.log(answer)
+}
+}
+
+
+userPromptNumber()
