@@ -22,6 +22,10 @@ padding:16px;
     padding: 16px;
 }
 
+#historicalDisplayScreen {
+    font-size: 1.5rem;
+}
+
 .calculatorContainer {
     width: 480px;
     border: 1px black solid;
