@@ -58,7 +58,6 @@ class Calculator {
                 if (currentInputFloat === 0) {
                     alert('You cannot divide by 0');
                     return
-                    
                 } else {
                     answer = previousInputFloat / currentInputFloat;
                 }
