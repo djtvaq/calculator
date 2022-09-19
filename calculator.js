@@ -55,7 +55,13 @@ class Calculator {
                 answer = previousInputFloat - currentInputFloat;
                 break;
             case '/':
-                answer = previousInputFloat / currentInputFloat;
+                if (currentInputFloat === 0) {
+                    alert('You cannot divide by 0');
+                    return
+                } else {
+                    answer = previousInputFloat / currentInputFloat;
+                }
+
                 break;
             case '*':
                 answer = previousInputFloat * currentInputFloat;
