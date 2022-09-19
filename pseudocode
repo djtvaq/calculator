@@ -1,0 +1,65 @@
+when a number is pressed, place that number on the display
+when a successive number is pressed, add this to the end of the previous number and display
+store this number in a variable 1
+
+when an operator is pressed, hold that operator in a variable
+store the number on display in another variable to hold and remember it
+reset the number on the display
+
+when a number is pressed, place that number on the display
+when a successive number is pressed, add this to the end of the previous number and display
+store this number in a variable 2
+
+when an operator is pressed, hold that operator in a variable
+using the previously saved operator, evaluate the stored number 1 and stored number 2
+display this new answer on the screen
+save this number in variable 1
+
+when a number is pressed, place that number on the display
+when a successive number is pressed, add this to the end of the previous number and display
+store this number in a variable 2
+
+when an operator is pressed, hold that operator in a variable
+using the previously saved operator, evaluate the stored number 1 and stored number 2
+display this new answer on the screen
+save this number in variable 1
+
+
+12+2 = 14 *2 = 28 / 7 = 4 
+
+
+12
+displayInput= 12
+
++
+operator = add
+variable1 = displaynput
+variable1 = 12
+displayInput = []
+
+
+2
+displayInput = 2
+
+
+*
+operator = add
+variable1 (12) + displayInput (2) = 14
+displayinput = 14
+variiable 1 = 14
+operator = multiply
+
+
+2
+displayInput = 2
+
+
+/
+operator = multuiply
+variable1 (14) * displayInput(2) = 28
+displayInput = 28
+variable 1 = 28
+operator = divide
+
+
+
