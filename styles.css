@@ -30,4 +30,9 @@ padding:16px;
     width: 480px;
     border: 1px black solid;
     border-radius: 2%;
+    margin: auto;
+}
+
+header {
+    text-align: center;
 }
